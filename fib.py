@@ -3,7 +3,7 @@
 
 from sequences import fibonacci
 def main(local_argv):
-    print(fibonacci(local_argv)[-1])
+    return(fibonacci(local_argv)[-1])
     
 
 
@@ -18,7 +18,6 @@ if __name__ == "__main__":
     # The getopt module may also be helpful for more ambitious programs.
     import sys
     main(sys.argv[0])
-
 
 
 
