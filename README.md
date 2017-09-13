@@ -28,7 +28,7 @@ Complete the following exercises, saving your solutions in the indicated files. 
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+**This was fun to see how much faster it is to code in python. We learned a lot about getting python command line arguments and that bash is  very particular about spaces.**
 
 ## Honor Pledge
 
@@ -39,4 +39,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Chelsea Parlett-Pelleriti and Chris  Watkins**
