@@ -1,6 +1,6 @@
 # CS510 CW 3
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Chelsea Parlett-Pelleriti and Chris Watkins**
 
 [![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-03-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-03-YOURNAME)
 
