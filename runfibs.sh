@@ -2,10 +2,11 @@
 
 # Name: Chelsea Parlett & Chris Watkins
 # Student ID: 2298930 & 1450263
-# Email: parlette@chapman.edu & watki115@mail.chapman.edu
-# Course: CS520 Fall 2017
+# Email: parlett@chapman.edu & watki115@mail.chapman.edu
+# Course: CS510 Fall 2017
 # Assignment: Classwork 3
 ###
+
 if [ -f ./fibs.csv ]
 then 
     if [ -f ./fibs.csv.bak ]
