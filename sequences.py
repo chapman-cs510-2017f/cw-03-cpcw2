@@ -2,6 +2,12 @@
 # -*- coding: utf-8 -*-
 
 def fibonacci(n):
+    try:
+        int(n)
+    except:
+        print("this isn't a number")
+    if n <= 0:
+        print("you put in a negative number or 0")
     k = 1
     j = 1
     fibList = []
