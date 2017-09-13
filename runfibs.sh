@@ -21,10 +21,10 @@ then
 else
     touch fibs.csv
 fi
-for i in {1..5..1}
+for i in {1..10000..1}
 do
 n=$(python3 fib.py $i)
-if [[ $i -lt 5 ]]
+if [[ $i -lt 10000 ]]
 then
 printf "$n""," >> fibs.csv
 else
