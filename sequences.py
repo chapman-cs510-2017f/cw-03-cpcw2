@@ -22,8 +22,8 @@ def fibonacci(n):
         fibList.append(1)
         for i in range(3,n+1):
             fibList.append(k+j)
-            k = j
-            j = j+k
+            l = j
+            j = k + j
+            k = l
     return fibList
-
         
