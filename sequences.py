@@ -7,10 +7,10 @@ def fibonacci(n):
     fibList = []
     if n == 1:
        # print([1])
-        return [1]
+        return [1][0]
     elif n == 2:
        # print([1,1])
-        return [1,1]
+        return [1,1][-1]
     else:
         fibList.append(1)
         fibList.append(1)
@@ -18,6 +18,6 @@ def fibonacci(n):
             fibList.append(k+j)
             k = j
             j = j+k
-    return fibList
+    return fibList[-1]
 
         
