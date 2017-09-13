@@ -3,6 +3,12 @@
 
 from sequences import fibonacci
 def main(local_argv):
+    #print("the arg is ", local_argv)
+    try:
+        local_argv = int(local_argv)
+    except:
+        print("Not a num")
+    print(fibonacci(local_argv)[-1])
     return(fibonacci(local_argv)[-1])
     
 
@@ -17,7 +23,7 @@ if __name__ == "__main__":
     # executed. Note that sys.argv will contain all commandline options.
     # The getopt module may also be helpful for more ambitious programs.
     import sys
-    main(sys.argv[0])
+    main(sys.argv[1])
 
 
 
