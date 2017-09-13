@@ -1,6 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# Name: Chelsea Parlett & Chris Watkins
+# Student ID: 2298930 & 1450263
+# Email: parlette@chapman.edu & watki115@mail.chapman.edu
+# Course: CS520 Fall 2017
+# Assignment: Classwork 3
+###
+
 from sequences import fibonacci
 def main(local_argv):
     #print("the arg is ", local_argv)
@@ -23,6 +30,7 @@ if __name__ == "__main__":
     # executed. Note that sys.argv will contain all commandline options.
     # The getopt module may also be helpful for more ambitious programs.
     import sys
+    #print("the arg is ", sys.argv)
     main(sys.argv[1])
 
 
